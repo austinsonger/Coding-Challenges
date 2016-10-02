@@ -1,2 +1,3 @@
 # Coding-Challenges
-Hackerrack, CodeChef, and etc
+
+Hackerrack, CodeChef, CodeFights, Codebyte, CodeEval, CodeWars, TopCoder and etc
