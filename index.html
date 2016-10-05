@@ -138,209 +138,292 @@ $('.history.example .menu .item')
 </head>
 <body>
 
-<!-- Following Menu -->
-<div class="ui large top fixed hidden menu">
-  <div class="ui container">
-    <a class="active item">Home</a>
-    <a class="item">CodeChef</a>
-    <a class="item">CodeEval</a>
-    <a class="item">CodeFights</a>
-    <a class="item">Coderbyte</a>
-    <a class="item">CodeWars</a>	  
-    <a class="item">Hackerrank</a>
-    <a class="item">TopCoder</a>	 
-	  <!--  <div class="right menu">
-      <div class="item">
-        <a class="ui button">Log in</a>
-      </div>
-      <div class="item">
-        <a class="ui primary button">Sign Up</a>
-      </div> 
-    </div> -->
-  </div>
-</div>
-
-<!-- Sidebar Menu -->
-<div class="ui vertical inverted sidebar menu">
-  <a class="active item">Home</a>
-    <a class="item">CodeChef</a>
-    <a class="item">CodeEval</a>
-    <a class="item">CodeFights</a>
-    <a class="item">Coderbyte</a>
-    <a class="item">CodeWars</a>	  
-    <a class="item">Hackerrank</a>
-    <a class="item">TopCoder</a>
-</div>
-
-
-<!-- Page Contents -->
-<div class="pusher">
-  <div class="ui inverted vertical masthead center aligned segment">
-
-    <div class="ui container">
-      <div class="ui large secondary inverted pointing menu">
-        <a class="toc item">
-          <i class="sidebar icon"></i>
+    <nav class="ui fixed menu inverted navbar">
+        <a href="" class="brand item">Project Name</a>
+        <a href="" class="active item">Home</a>
+        <a href="" class="item">About</a>
+        <a href="" class="item">Contact</a>
+        <a class="ui dropdown item">Dropdown
+          <i class="dropdown icon"></i>
+          <div class="menu">
+            <div class="item">Action</div>
+            <div class="item">Another action</div>
+            <div class="item">Something else here</div>
+            <div class="ui horizontal divider"></div>
+            <div class="item">Seperated link</div>
+            <div class="item">One more seperated link</div>
+          </div>
         </a>
-        <a class="active item">Home</a>
-    	<a class="item">CodeChef</a>
-    	<a class="item">CodeEval</a>
-    	<a class="item">CodeFights</a>
-    	<a class="item">Coderbyte</a>
-    	<a class="item">CodeWars</a>	  
-    	<a class="item">Hackerrank</a>
-    	<a class="item">TopCoder</a>
-        <!--<div class="right item">
-          <a class="ui inverted button">Log in</a>
-          <a class="ui inverted button">Sign Up</a>
-        </div> -->
-      </div>
-    </div>
+    </nav> <!-- end nav -->
 
-    <div class="ui text container">
-      <h1 class="ui inverted header">
-        Coding Challenges
-      </h1>
-      <h2></h2>
-      <!--<div class="ui huge primary button">Get Started <i class="right arrow icon"></i></div>-->
-    </div>
-
-  </div>
-
-<div class="ui relaxed grid">
-  <div class="three column row">
-    <div class="column"></div>
-    <div class="column">
-<div class="ui active tab segment" data-tab="first">
-  <div class="ui top attached tabular menu">
-    <a class="active item" data-tab="first/a">1A</a>
-    <a class="item" data-tab="first/b">1B</a>
-    <a class="item" data-tab="first/c">1C</a>
-  </div>
-  <div class="ui bottom attached active tab segment" data-tab="first/a">1A</div>
-  <div class="ui bottom attached tab segment" data-tab="first/b">1B</div>
-  <div class="ui bottom attached tab segment" data-tab="first/c">1C</div>
-</div>
-<div class="ui tab segment" data-tab="second">
-  <div class="ui top attached tabular menu">
-    <a class="item" data-tab="second/a">2A</a>
-    <a class="item" data-tab="second/b">2B</a>
-    <a class="item" data-tab="second/c">2C</a>
-  </div>
-  <div class="ui bottom attached tab segment" data-tab="second/a">2A</div>
-  <div class="ui bottom attached tab segment" data-tab="second/b">2B</div>
-  <div class="ui bottom attached tab segment" data-tab="second/c">2C</div>
-</div>
-<div class="ui tab segment" data-tab="third">
-  <div class="ui top attached tabular menu">
-    <a class="item" data-tab="third/a">3A</a>
-    <a class="item" data-tab="third/b">3B</a>
-    <a class="item" data-tab="third/c">3C</a>
-  </div>
-  <div class="ui bottom attached tab segment" data-tab="third/a">3A</div>
-  <div class="ui bottom attached tab segment" data-tab="third/b">3B</div>
-  <div class="ui bottom attached tab segment" data-tab="third/c">3C</div>
-</div>	  
-	  </div>
-    <div class="column"></div>
-  </div>
-  <div class="eight column row">
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-  </div>
-</div>
-	
-  <div class="ui vertical stripe segment">  
-    <div class="ui middle aligned stackable grid container">
-	    
-    <!--  <div class="row">
-        <div class="eight wide column">
-          <h3 class="ui header">We Help Companies and Companions</h3>
-          <p>We can give your company superpowers to do things that they never thought possible. Let us delight your customers and empower your needs...through pure data analytics.</p>
-          <h3 class="ui header">We Make Bananas That Can Dance</h3>
-          <p>Yes that's right, you thought it was the stuff of dreams, but even bananas can be bioengineered.</p>
+    <main class="ui page grid">
+        <div class="row">
+            <div class="column">
+                <div class="ui message main">
+                    <h1 class="ui header">Hello, world!</h1>
+                    <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+                    <a class="ui blue button">Learn more &raquo;</a>
+                </div>
+            </div>
         </div>
-        <div class="six wide right floated column">
-          <img src="assets/images/wireframe/white-image.png" class="ui large bordered rounded image">
+        <div class="row">
+            <div class="column">
+                <h1 class="ui header">Buttons</h1>
+                <div class="ui divider"></div>
+                <div class="row m-top-20">
+                    <div class="column button-control">
+                        <a class="huge ui button">Default</a>
+                        <a class="huge ui blue button">Blue</a>
+                        <a class="huge ui green button">Green</a>
+                        <a class="huge ui teal button">Teal</a>
+                        <a class="huge ui orange button">Orange</a>
+                        <a class="huge ui red button">Red</a>
+                        <a class="huge ui purple button">Purple</a>
+                    </div>
+                </div>
+                <div class="row m-top-20">
+                    <div class="column button-control">
+                        <a class="large ui button">Default</a>
+                        <a class="large ui blue button">Blue</a>
+                        <a class="large ui green button">Green</a>
+                        <a class="large ui teal button">Teal</a>
+                        <a class="large ui orange button">Orange</a>
+                        <a class="large ui red button">Red</a>
+                        <a class="large ui purple button">Purple</a>
+                    </div>
+                </div>
+                <div class="row m-top-20">
+                    <div class="column button-control">
+                        <a class="small ui button">Default</a>
+                        <a class="small ui blue button">Blue</a>
+                        <a class="small ui green button">Green</a>
+                        <a class="small ui teal button">Teal</a>
+                        <a class="small ui orange button">Orange</a>
+                        <a class="small ui red button">Red</a>
+                        <a class="small ui purple button">Purple</a>
+                    </div>
+                </div>
+                <div class="row m-top-20">
+                    <div class="column button-control">
+                        <a class="mini ui button">Default</a>
+                        <a class="mini ui blue button">Blue</a>
+                        <a class="mini ui green button">Green</a>
+                        <a class="mini ui teal button">Teal</a>
+                        <a class="mini ui orange button">Orange</a>
+                        <a class="mini ui red button">Red</a>
+                        <a class="mini ui purple button">Purple</a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="center aligned column">
-          <a class="ui huge button">Check Them Out</a>
+        <div class="row">
+            <div class="column">
+                <h1 class="ui header">Thumbnails</h1>
+                <div class="ui divider"></div>
+                <img class="img-thumbnail" src="//placehold.it/200x200">
+            </div>
         </div>
-      </div> -->
-    </div>
-  </div>
+        <div class="row">
+            <div class="column">
+                <h1 class="ui header">Dropdown menus</h1>
+                <div class="ui divider"></div>
+                <div class="ui compact menu">
+                    <div class="ui dropdown item dropdown-showcase">Dropdown
+                        <i class="dropdown icon"></i>
+                        <div class="menu">
+                            <div class="item active">Action</div>
+                            <div class="item">Another action</div>
+                            <div class="item">Something else here</div>
+                            <div class="ui horizontal divider"></div>
+                            <div class="item">Seperated link</div>
+                            <div class="item">One more seperated link</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <h1 class="ui header">Navbars</h1>
+                <div class="ui divider"></div>
+                <div class="ui menu">
+                  <a class="active item">
+                    <i class="home icon"></i> Green
+                  </a>
+                  <a class="red item">
+                    <i class="mail icon"></i> Red
+                  </a>
+                  <a class="blue item">
+                    <i class="user icon"></i> Blue
+                  </a>
+                  <a class="orange item">
+                    <i class="home icon"></i> Orange
+                  </a>
+                  <a class="purple item">
+                    <i class="mail icon"></i> Purple
+                  </a>
+                  <a class="teal item">
+                    <i class="user icon"></i> Teal
+                  </a>
+                </div>
+                <div class="ui inverted menu">
+                  <a class="active item">
+                    <i class="home icon"></i> Green
+                  </a>
+                  <a class="red item">
+                    <i class="mail icon"></i> Red
+                  </a>
+                  <a class="blue item">
+                    <i class="user icon"></i> Blue
+                  </a>
+                  <a class="orange item">
+                    <i class="home icon"></i> Orange
+                  </a>
+                  <a class="purple item">
+                    <i class="mail icon"></i> Purple
+                  </a>
+                  <a class="teal item">
+                    <i class="user icon"></i> Teal
+                  </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <h1 class="ui header">Alerts</h1>
+                <div class="ui divider"></div>
+                <div class="ui green message">Well done! You successfully read this important alert message.</div>
+                <div class="ui blue message">Heads up! This alert needs your attention, but it's not super important.</div>
+                <div class="ui yellow message">Warning! Best check yo self, you're not looking too good.</div>
+                <div class="ui red message">Oh snap! Change a few things up and try submitting again.</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <h1 class="ui header">Progress bars</h1>
+                <ui class="divider"></ui>
+                <div class="ui blue progress">
+                    <div class="bar" style="width:60%"></div>
+                </div>
+                <div class="ui green progress">
+                    <div class="bar" style="width:50%"></div>
+                </div>
+                <div class="ui blue progress">
+                    <div class="bar" style="width:30%"></div>
+                </div>
+                <div class="ui red progress">
+                    <div class="bar" style="width:60%"></div>
+                </div>
+                <div class="ui warning progress">
+                    <div class="bar" style="width:80%"></div>
+                </div>
+                <div class="ui red progress">
+                    <div class="bar" style="width:30%"></div>
+                    <div class="bar" style="width:20%"></div>
+                    <div class="bar" style="width:20%"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+                <div class="column">
+                    <h1 class="ui headder">List groups</h1>
+                    <div class="ui divider"></div>
+                    <div class="ui three column grid">
+                        <div class="column panel">
+                            <div class="ui top attached segment">
+                                <p>Cras justo odio</p>
+                            </div>
+                            <div class="ui attached segment">
+                                <p>Dapibus ac facilisis in</p>
+                            </div>
+                            <div class="ui attached segment">
+                                <p>Morbi leo risus</p>
+                            </div>
+                            <div class="ui attached segment">
+                                <p>Porta ac consectetur ac</p>
+                            </div>
+                            <div class="ui bottom attached segment">
+                                 <p>Vestibulum at eros</p>
+                            </div>
+                        </div>
+                        <div class="column panel">
+                            <div class="ui blue top inverted attached segment">
+                                <p>Cras justo odio</p>
+                            </div>
+                            <div class="ui attached segment">
+                                <p>Dapibus ac facilisis in</p>
+                            </div>
+                            <div class="ui attached segment">
+                                <p>Morbi leo risus</p>
+                            </div>
+                            <div class="ui attached segment">
+                                <p>Porta ac consectetur ac</p>
+                            </div>
+                            <div class="ui bottom attached segment">
+                                 <p>Vestibulum at eros</p>
+                            </div>
+                        </div>
+                        <div class="column panel">
+                            <div class="ui blue inverted top attached segment">
+                                <h1 class="ui medium header">List group item heading</h1>
+                                <p style="color: #fff">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                            </div>
+                            <div class="ui attached segment">
+                                <h1 class="ui medium header">List group item heading</h1>
+                                <p>Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                            </div>
+                            <div class="ui bottom attached segment">
+                                <h1 class="ui medium header">List group item heading</h1>
+                                 <p>Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <h1 class="ui header">Panels</h1>
+                    <div class="ui divider"></div>
+                    <div class="ui three column grid">
+                        <div class="column panel">
+                            <div class="ui secondary inverted top attached segment">Panel title</div>
+                            <div class="ui bottom attached segment">Panel content</div>
+                            <div class="ui inverted top attached segment">Panel title</div>
+                            <div class="ui bottom attached segment">Panel content</div>
+                        </div>
+                        <div class="column panel">
+                            <div class="ui green inverted top attached segment">Panel title</div>
+                            <div class="ui bottom attached segment">Panel content</div>
+                            <div class="ui inverted blue top attached segment">Panel title</div>
+                            <div class="ui bottom attached segment">Panel content</div>
+                        </div>
+                        <div class="column panel">
+                            <div class="ui orange inverted top attached segment">Panel title</div>
+                            <div class="ui bottom attached segment">Panel content</div>
+                            <div class="ui inverted red top attached segment">Panel title</div>
+                            <div class="ui bottom attached segment">Panel content</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <h1 class="ui header">Wells</h1>
+                    <div class="ui divider"></div>
+                    <div class="ui segment secondary inverted">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.</p>
+                    </div>
+                </div>
+            </div>
+    </main>
 
-
-  <div class="ui vertical stripe quote segment">
-    <div class="ui equal width stackable internally celled grid">
-    <!--  <div class="center aligned row">
-        <div class="column">
-          <h3>"What a Company"</h3>
-          <p>That is what they all say about us</p>
-        </div>
-        <div class="column">
-          <h3>"I shouldn't have gone with their competitor."</h3>
-          <p>
-            <img src="assets/images/avatar/nan.jpg" class="ui avatar image"> <b>Nan</b> Chief Fun Officer Acme Toys
-          </p>
-        </div>
-      </div> -->
-    </div>
-  </div>
-
-  <div class="ui vertical stripe segment">
-    <div class="ui text container">
-    <!--  <h3 class="ui header">Breaking The Grid, Grabs Your Attention</h3>
-      <p>Instead of focusing on content creation and hard work, we have learned how to master the art of doing nothing by providing massive amounts of whitespace and generic content that can seem massive, monolithic and worth your attention.</p>
-      <a class="ui large button">Read More</a>
-      <h4 class="ui horizontal header divider">
-        <a href="#">Case Studies</a>
-      </h4>
-      <h3 class="ui header">Did We Tell You About Our Bananas?</h3>
-      <p>Yes I know you probably disregarded the earlier boasts as non-sequitur filler content, but its really true. It took years of gene splicing and combinatory DNA research, but our bananas can really dance.</p>
-      <a class="ui large button">I'm Still Quite Interested</a> -->
-    </div>
-  </div>
-
-
-  <div class="ui inverted vertical footer segment">
-    <div class="ui container">
-    <!--  <div class="ui stackable inverted divided equal height stackable grid"> 
-        <div class="three wide column">
-          <h4 class="ui inverted header">About</h4>
-          <div class="ui inverted link list">
-            <a href="#" class="item">Sitemap</a>
-            <a href="#" class="item">Contact Us</a>
-            <a href="#" class="item">Religious Ceremonies</a>
-            <a href="#" class="item">Gazebo Plans</a>
-          </div>
-        </div>
-        <div class="three wide column">
-          <h4 class="ui inverted header">Services</h4>
-          <div class="ui inverted link list">
-            <a href="#" class="item">Banana Pre-Order</a>
-            <a href="#" class="item">DNA FAQ</a>
-            <a href="#" class="item">How To Access</a>
-            <a href="#" class="item">Favorite X-Men</a>
-          </div>
-        </div>
-        <div class="seven wide column">
-          <h4 class="ui inverted header">Footer Header</h4>
-          <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
-        </div>
-      </div>
-    </div> -->
-  </div>
-</div>
-
+    
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.13.0/javascript/semantic.min.js"></script>
+    <script src="main.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
 </body>
-
 </html>
