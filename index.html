@@ -102,10 +102,14 @@
 
   </style>
 
-  <script src="assets/library/jquery.min.js"></script>
-  <script src="../dist/components/visibility.js"></script>
-  <script src="../dist/components/sidebar.js"></script>
-  <script src="../dist/components/transition.js"></script>
+  <script>
+$('.history.example .menu .item')
+  .tab({
+    context : '.history.example',
+    history : true
+  })
+;
+	  </script>
   <script>
   $(document)
     .ready(function() {
